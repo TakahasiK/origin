@@ -1,0 +1,278 @@
+/* ここから下に記載していく */
+#header{
+    display:flex;
+}
+.header-logo img{
+    margin:20px 0 10px 30px;
+}
+.header-list ul{
+    display: flex;
+    margin-left: 100px;
+}
+.header-list li{
+    font-size: 21px;
+    padding:50px 0 50px 50px;
+    text-align: right;
+}
+.mainvisual {
+    height: 500px;
+    background-image: url('../images/mainbg.png')
+
+}
+.mainvisual h1{
+    font-size: 40px;
+    padding: 200px 0 30px 0;
+    text-align: center;
+    color:white;
+}
+.mainvisual h2{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.about h1{
+    font-size:24px;
+    color:#ffd61a;
+    padding: 60px 0px 30px 0px;
+}
+.title1{
+    font-size: 18px;
+    color:#222222;
+    padding-bottom:60px;
+}
+.content p{
+    font-size: 16px;
+    padding-bottom: 40px;
+    color: #222222
+}
+.content ul {
+    padding-top: 40px;
+    display:flex;
+}
+.content img{
+    width: 316px;
+}
+.content h2{
+    font-size:24px;
+    color:#222222;
+    padding: 60px 0px 30px 0px;
+}
+.content h3{
+    font-size: 16px;
+    columns: #222222;
+    padding-bottom:80px;
+}
+.text1 img{
+    display: flex;
+}
+.box1{
+    display: flex;
+}
+.picture1 img{
+    width: 630px;
+}
+.right1{
+    background-color:#fafafa;
+    padding:120px 100px 120px 50px;
+    text-align: left;
+}
+.right1 h1{
+    font-size:24px;
+    padding-bottom:40px;
+}
+.right1 p{
+    width:480px;
+}
+.box2{
+    display: flex;
+}
+.left2{
+    background-color:#fafafa;
+    padding:120px 50px 120px 150px;
+    text-align: left;
+}
+.left2 h1{
+    font-size:24px;
+    padding-bottom:40px;
+}
+.picture2 img{
+    width: 630px;
+}
+.box3{
+    display: flex;
+}
+.picture3 img{
+    width: 630px;
+}
+.right3{
+    background-color:#fafafa;
+    padding:120px 100px 120px 50px;
+    text-align: left;
+}
+.right3 h1{
+    font-size:24px;
+    padding-bottom:40px;
+}
+.right3 p{
+    width:480px;
+}
+.news{
+    text-align: center;
+}
+.news h1{
+    font-size:24px;
+    color:yellow;
+    padding: 60px 0 30px 0;
+}
+.news h2{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.bottan {
+    display:flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;  
+}
+.bottan1{
+    width:300px;
+    margin-left: 30px;
+}
+.bottan2{
+    width:300px;
+    margin-left: 30px;
+}
+.bottan3{
+    width:300px;
+    margin-left: 30px;
+}
+.bottan1 h1{
+    font-size: 14px;
+    padding: 30px 0 24px 0;
+    color:#222222;
+}
+.bottan1 p{
+    font-size:14px;
+    color:#222222;
+}
+.bottan2 h1{
+    font-size: 14px;
+    padding: 30px 0 24px 0;
+    color:#222222;
+}
+.bottan2 p{
+    font-size:14px;
+    color:#222222;
+}
+.bottan3 h1{
+    font-size: 14px;
+    padding: 30px 0 24px 0;
+    color:#222222;
+}
+.bottan3 p{
+    font-size:14px;
+    color:#222222;
+}
+.bottan :hover{
+    background-color:#ffd61a;
+}
+.button4{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color:#ffd61a;
+    color:white;
+    margin:60px 0 60px 0;
+}
+.button4:hover{
+    width: 310px;
+    height: 70px;
+}
+.access{
+    background-color: #fafafa;
+    text-align:center;
+}
+.access h1{
+    font-size:24px;
+    padding:60px 0 30px 0;
+}
+.access h2{
+    font-size: 18px;
+    padding-bottom:60px;
+}
+.access iframe{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.detail{
+    background-color: #fafafa;
+}
+.detail dt{
+    padding-bottom: 30px;
+    float: left;
+    padding-left: 400px;
+    width: 200px;
+}
+.detail dd{
+    padding-bottom: 30px;
+}
+.contact{
+    text-align: center;
+}
+.contact h1{
+    padding:60px 0 30px 0px;
+    font-size: 40px;
+}
+.contact h2{
+    padding-bottom: 60px;
+}
+.contact h4{
+    padding: 30px 0 70px 0;
+}
+.formBox dt{
+    width:150px;
+    padding-right: 64px;
+}
+.hoge{
+    width: 328px;
+    height: 20px;
+}
+.kind{
+    width: 328px;
+    height: 100px;
+}
+.formBox dl{
+    display: flex;
+    padding-left: 400px;
+    margin: 8px 0px 8px 8px;
+}
+.formBox span{
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.button5{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color:#ffd61a;
+    color:white;
+}
+.button5:hover{
+    width: 310px;
+    height: 70px;
+}
+.formBox1{
+    text-align: center;
+    padding:30px 0 140px 0; 
+}
+#footer h1{
+    padding:30px 0 30px 0;
+    background-color: #707070;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
